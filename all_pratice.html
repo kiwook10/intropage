@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kakao bank site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="js/cont1Typing.js"></script>
+    <script defer src="js/header.js"></script>
+    <style>
+        * { margin: 0; padding: 0;}
+        img,video { vertical-align:top;}
+        a { text-decoration:none;}
+        ul,ol,li { list-style:none;}
+        body { line-height:1;}
+
+
+        #container > div { height:100vh;}
+        #container .cont1{display:flex; justify-content:center;align-items:center; background-image:url("img/cont1_Bg.png");height:800px;}
+        #container .cont1 .cont1_box{ width:500px;height:300px; display:flex; justify-content:center; align-items:center; position: relative;}
+        #container .cont1_text::after {content:"|";font-size:20px;color: blue; height:25px;
+                                        animation:typing 0.5s linear infinite; position:absolute; top:140px;}
+        .C1_text {color:orangered; font-size:25px; font-weight:bold;}
+        
+        @keyframes typing{
+            0%  {opacity:1;}
+            100% {opacity:0;}
+        }
+
+
+
+
+
+        #container .cont2 { display:flex; justify-content:space-around; align-items:center; background-image:url("img/cont2_Bg.png");}
+        #container .cont2 .box {width:330px; height:200px; opacity:0;
+                                transform:translateY(50px);
+                                padding:0 20px; border-radius:20px;}
+        #container .cont2 .box h3{text-align:center; margin:20px 20px;}
+        #container .cont2 .box .box_bottom {margin-top:90px; border-top:1px solid #000;}
+        #container .cont2 .box.on { opacity:1; transform:translateY(0px);}
+
+        #container .cont2 .box:nth-child(1){
+            transition:all 0.5s 0s;
+            background-color:red;
+        }
+        
+
+        .footer {background-color:yellow; display:flex; justify-content:space-around; align-items:center; height:100px;}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="center">
+            <a class="logo" href="#">KKW</a>
+            <ul class="lists">
+                <li class="list"><a href="#">intro</a></li>
+                <li class="list"><a href="#">portfolio intro</a></li>
+                <li class="list"><a href="#">contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="left_fix">
+        <ul class="menu">
+            <li><a class="on" href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <div class="cont1">
+            <div class="cont1_box">
+                <p class="cont1_text">저는 웹 퍼블 및 프론트 엔드<br/><span class="C1_text"></span></p>
+            </div>
+        </div>
+        <div class="cont2">
+            <div class="box">  
+                <h3>모바일로 더 손쉬운
+                <br>계좌개설, 간편한 이체</h3>
+                <div class="box_bottom">
+                    <p>인증서, OTP 없이 계좌 개설이 간편합니다.</p>
+                    <p>여러 건의 이체도 몇 번의 터치로 손쉽게 보낼 수 있습니다.</p>
+                </div>
+            </div>
+            <div class="box">  
+                <h3>모바일로 더 손쉬운
+                <br>계좌개설, 간편한 이체</h3>
+                <div class="box_bottom">
+                    <p>인증서, OTP 없이 계좌 개설이 간편합니다.</p>
+                    <p>여러 건의 이체도 몇 번의 터치로 손쉽게 보낼 수 있습니다.</p>
+                </div>
+            </div>
+            <div class="box">  
+                <h3>모바일로 더 손쉬운
+                <br>계좌개설, 간편한 이체</h3>
+                <div class="box_bottom">
+                    <p>인증서, OTP 없이 계좌 개설이 간편합니다.</p>
+                    <p>여러 건의 이체도 몇 번의 터치로 손쉽게 보낼 수 있습니다.</p>
+                </div>
+            </div>
+            <div class="box">  
+                <h3>모바일로 더 손쉬운
+                <br>계좌개설, 간편한 이체</h3>
+                <div class="box_bottom">
+                    <p>인증서, OTP 없이 계좌 개설이 간편합니다.</p>
+                    <p>여러 건의 이체도 몇 번의 터치로 손쉽게 보낼 수 있습니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_left">
+            <h2 class="footer_logo"><a href="#"><img src="img/footer_logo.png"></a></h2>
+        </div>
+        <div class="footer_right">
+            <p>Copyright © KakaoBank Corp. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

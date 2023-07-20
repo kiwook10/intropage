@@ -1,0 +1,67 @@
+/*reset 부분 start*/
+* {margin: 0; padding: 0;}
+body {line-height: 1; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+img,video {vertical-align: top;}
+a {text-decoration: none;}
+ul,ol,li {list-style: none;}
+h1,h2,h3,h4,h5,h6 {font-size: 100%; font-weight: normal;}
+/*reset 부분 end*/
+
+/*header부분 start*/
+.header{display:flex; justify-content:center;}
+.header .center {display:flex; justify-content:space-between; align-items:center; width:1200px; height:100px; position:fixed; background-color:transparent;}
+.header .center a {color:#fff;}
+.header .center .logo{ margin-left:30px; font-size:25px; }
+.header .center .lists {display:flex;}
+.header .center .lists .list { margin:0 15px;}
+
+
+/*header부분 end*/
+
+/*container부분 start*/
+.container > div {height:100vh;}
+
+.container .cont1{background-color:gray;}
+.progress_order .title_area {text-align:center; padding-top: 200px; padding-bottom:100px; font-size:25px; font-weight: bold; background-image:url(/img/bg.jpg); height:100px;}
+.progress_order .title_area .title {font-size:30px; color:#fff;}
+.progress_order .title_area .order{margin:20px 0;}
+
+.container .cont1 .intro {display:flex; justify-content:center; height:100px; font-size:25px; padding-top:100px; margin-bottom:100px;}
+.container .cont1 .intro .center {width:360px;}
+.container .cont1 .intro .center .intro_top .intro_title {text-align:center;}
+.container .cont1 .intro .center .intro_bot {margin:30px 0;}
+.container .cont1 .intro .center .intro_bot .text1 .cont1_text {color:#fff; line-height:40px; font-weight: bold; text-align:center;}
+.container .cont1 .intro .center .intro_bot .text1 .cont1_text .C1_text {color:#000;}
+.container .cont1 .proflie {display:flex; justify-content: center;}
+.container .cont1 .proflie > .center {display:flex; justify-content:space-between; width:1200px; border:1px solid #fff; border-radius:20px;}
+.container .cont1 .proflie > .center > div {width:560px;}
+.proflie > .center .left .area_one{margin-left:50px; height:80px; line-height:100px; color:#fff;}
+.proflie > .center .left .area_two{margin:50px 0; margin-left:50px;}
+.proflie > .center .left .area_two > .sub_title > p {font-size:20px; font-weight:bold;}
+.proflie > .center .left .skill {margin-left:60px;}
+.proflie > .center .left .skill > .center {display:flex; justify-content:space-between; flex-wrap:wrap; width:180px;}
+.proflie > .center .left .skill > .center .skill_img{width:50px; margin:20px 0;}
+.proflie > .center .left .skill > .center .skill_img > .skill {width:100%; height:50px; background-color:transparent;}
+.proflie > .center .right .dev_img {width:500px; margin-top:39px;}
+.proflie > .center .right .dev_img > img {width:100%; height:450px;}
+
+
+.container .cont2 {background-color:#aaa;}
+.container .cont2 .cont2_title {display:flex; justify-content:center; height:100px; line-height:100px; padding-top: 80px; font-size:25px; }
+.container .cont2 .flex{display:flex; justify-content:center;}
+.cont2 .box_area { width:1200px; display:flex; justify-content:space-between; padding-top:50px;}
+.cont2 .box_area .box {width:450px; height:500px; background-color:silver;}
+.cont2 .box_area .box .box_title{ font-size:25px;  font-weight:bold; color:#fff; height:100px; line-height:100px; text-align:center; border-bottom:1px solid #000;}
+.cont2 .box_area .box .img_area {margin:20px; height:200px;}
+.cont2 .box_area .box .img_area > a > img {width:100%; height:100%; margin-bottom:30px;}
+.cont2 .box_area .box .img_area > .text {font-size:20px; font-weight:bold; line-height:25px;}
+
+
+.container .cont3{background-color:#000;}
+.container .cont3 .cont3_title{display:flex; justify-content:center; height:100px; line-height:100px; padding-top: 80px; font-size:25px; color:#fff;}
+.container .cont3 .contact_area {display:flex; justify-content:center; padding-top:100px;}
+.container .cont3 .contact_area .box {width:1200px; border:1px solid #000; padding:30px;}
+.container .cont3 .contact_area .box .contact_img {width:800px; border:1px solid #000; margin:0 auto; margin-bottom:60px;}
+.container .cont3 .contact_area .box .contact_img > img {width:100%; height:100px;}
+.container .cont3 .contact_area .box .contact > p {text-align: center; color: #fff; line-height:35px; font-size:20px;}
+/*container부분 end*
